@@ -293,9 +293,9 @@ int main()
         //Evaluate the Error
         cout << "Step = " << t << ", Evaluation = " << evaluation(myrobot, p, n) << endl;
 
-        //####   DON'T MODIFY ANYTHING ABOVE HERE! ENTER CODE BELOW ####
+        // Graph the position of the robot and the particles at each step
+        visualization(n, myrobot, t, p2, p3);
 
-        //TODO: Graph the position of the robot and the particles at each step
 
     } //End of Steps loop
 
